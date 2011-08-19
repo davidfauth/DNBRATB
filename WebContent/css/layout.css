@@ -1,0 +1,257 @@
+
+
+a.yellow{text-decoration: underline;  color:#FFCC00; font-weight:none;}
+a.yellow:link {color: #FFCC00;}
+a.yellow:visited {color: #FFCC00;}
+a.yellow:active {color: #729AC2; }
+a.yellow:hover {color: #FFCC00; text-decoration: none;}
+
+a.yellowNOU{text-decoration: none;  color:#FFCC00; font-weight:none;}
+a.yellowNOU:link {color: #FFCC00;}
+a.yellowNOU:visited {color: #FFCC00;}
+a.yellowNOU:active {color: #729AC2; }
+a.yellowNOU:hover {color: #FFCC00; text-decoration: underline;}
+
+a.bodyLink{text-decoration: none;  color:#4D4D4D; font-weight:none;}
+a.bodyLink:link {color: #4D4D4D;}
+a.bodyLink:visited {color: #4D4D4D;}
+a.bodyLink:active {color: #729AC2; }
+a.bodyLink:hover {color: #4D4D4D; text-decoration: underline;}
+
+a.globalTopNav{text-decoration: none;  color:#4D4D4D; font-weight:none;}
+a.globalTopNav:link {color: #333333;}
+a.globalTopNav:visited {color: #333333;}
+a.globalTopNav:active {color: #729AC2; }
+a.globalTopNav:hover {color: #333333; text-decoration: underline;}
+
+input, select, option{
+	font-size:10px;
+	
+}
+input.pwd {
+	width:92px;
+}
+
+form {
+	display:inline;
+}
+
+ul.chevron{
+
+	list-style-image:url(../images/chevron.gif);
+	margin:0em 0em 0em 2.0em;
+	padding:1em 0em 0em 0em;
+  
+
+}
+
+li{
+	margin:0em 0em 0em 0.0em;
+	padding:0.5em 0em 0em 0em;
+}
+.dnbLogo{
+	vertical-align: top;
+	clear:none;
+}
+.customerLogin{
+	width: 180px;
+	height: 220px;
+	background-color: #666666;
+	color: #ffffff;
+	margin-right: 5px;
+	
+	
+}
+.centerColumn{
+	width: 409px;
+	height: 210px;
+	background-color: #ffffff;
+	vertical-align:top;
+	color: #ffffff;
+	
+}
+
+.findACompany{
+	width: 220px;
+	height: 210px;
+	background-color: #010066;
+	color: #ffffff;
+	margin-left: 5px;
+		
+}
+
+.topGlobalSelector{
+	top: 10px;
+	width: 150px;
+	white-space:nowrap;
+}
+
+.callToday {
+	background-color: #FFCC00;
+	color: #ffffff;
+}
+
+.marginLeft{
+	margin-left: 5px;
+}
+.marginRight{
+	margin-right: 5px;
+}
+.masthead {
+	width: 796px;
+	height: 100px;
+	background-color: #FFCC00;
+	margin-bottom: 5px;
+	z-index: 2;
+
+}
+
+.greyFiller{
+	height:6px;
+	background: url(../images/greyFiller.gif);
+	background-repeat:repeat-x;
+	
+	
+}
+
+.footer {
+	height: 25px;
+	color: #FFFFFF;
+	background-color: #666666;
+}
+
+.menuItem  {
+	margin:10px;
+	font-family:Verdana, Arial, sans-serif;
+	font-size:13px;
+	padding: 3px;
+	}
+h4{color:#333;font-size:small;font-weight:400;margin:0;}
+/* set millions of background images */
+.rbroundbox { background: url(../images/nt.gif) repeat; }
+.rbtop div { background: url(../images/tl.gif) no-repeat top left; }
+.rbtop { background: url(../images/tr.gif) no-repeat top right; }
+.rbbot div { background: url(../images/bl.gif) no-repeat bottom left; }
+.rbbot { background: url(../images/br.gif) no-repeat bottom right; }
+
+/* height and width stuff, width not really nessisary. */
+.rbtop div, .rbtop, .rbbot div, .rbbot {
+width: 100%;
+height: 7px;
+font-size: 1px;
+}
+.rbcontent { margin: 0 7px; }
+.rbroundbox { width: 100%; margin: 1em auto; }
+
+#footer_label
+	{color:#FFFAF0;
+	font:10px Helvetica,Arial,Sans-serif;
+	}
+
+#home_search_q
+	{color:#191970;
+	font:12px Helvetica,Arial,Sans-serif;
+	}
+#home_search_label
+	{color:#191970;
+	font:14px Helvetica,Arial,Sans-serif;
+	}
+	
+#form_search_label
+	{color:#191970;
+	font:24px Helvetica,Arial,Sans-serif;
+	}
+#results_search_label
+	{color:#191970;
+	font:24px Helvetica,Arial,Sans-serif;
+	}	
+#risk_results 	{
+	color:#191970;
+	font:16px Helvetica,Arial,Sans-serif;
+	}
+	
+a { text-decoration:none }
+a:link {
+COLOR: #191970;
+}
+
+a:hover {
+{
+	text-decoration: underline;
+}
+
+#form_search_l
+	{color:#000099;
+	font:12px Helvetica,Arial,Sans-serif;
+	}
+
+form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font:100% verdana,arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  min-width: 500px;
+  max-width: 600px;
+  width: 560px; 
+}
+
+form fieldset {
+  / * clear: both; note that this clear causes inputs to break to left in ie5.x mac, commented out */
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+  padding: 10px;        /* padding in fieldset support spotty in IE */
+  margin: 0;
+}
+
+
+form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 100px; 
+	padding: 0; 
+	margin: 5px 0 0; /* set top margin same as form input - textarea etc. elements */
+	text-align: right; 
+}
+
+form input, form textarea, form radio {
+	
+	width:250px;      /* set width of form elements to auto-size, otherwise watch for wrap on resize */
+	margin:5px 0 0 10px; 
+	font:12px Helvetica,Arial,Sans-serif;
+
+}
+
+form select {
+width: auto;
+margin: 5px 0 0 10px;
+font:12px Helvetica,Arial,Sans-serif;
+}
+
+#el06 {border:none}
+
+/* tables */
+table.tableform {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+
+table.tableform thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	color: #ABDABD;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+table.tableform tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+

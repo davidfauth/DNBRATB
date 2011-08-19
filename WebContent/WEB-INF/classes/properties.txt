@@ -1,0 +1,1 @@
+connstring = jdbc:oracle:thin:DNBUSER/DNBUSER@98.141.215.37:1521:IWSDNBWORLDB

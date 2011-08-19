@@ -1,0 +1,131 @@
+HTML{font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif}
+BODY{font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:10px;color:#4F4F4F;background-color:#ECECEC;background-image:url(../images/sitebg.gif);background-repeat:repeat-x;margin:0;padding:10px 0 0}
+
+.searchResults{
+
+font-family:"Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+font-size:8px;color:#4F4F4F;
+background-color:#ECECEC;
+}
+
+.dataTables_paginate {
+	width: 44px;
+	* width: 50px;
+	float: right;
+	text-align: right;
+}
+.paginate_disabled_previous, .paginate_enabled_previous, .paginate_disabled_next, .paginate_enabled_next {
+	height: 19px;
+	width: 19px;
+	margin-left: 3px;
+	float: left;
+}
+
+.paginate_disabled_previous {
+	background-image: url('http://apps.intelliwaresystems.com/images/back_disabled.jpg');
+}
+
+.paginate_enabled_previous {
+	background-image: url('http://apps.intelliwaresystems.com/images/back_enabled.jpg');
+}
+
+.paginate_disabled_next {
+	background-image: url('http://apps.intelliwaresystems.com/images/forward_disabled.jpg');
+}
+
+.paginate_enabled_next {
+	background-image: url('http://apps.intelliwaresystems.com/images/forward_enabled.jpg');
+}
+
+
+
+a {
+	color: #0B62B0;
+	text-decoration: none;
+}
+
+a:hover{color:#600;text-decoration:underline}
+.container{width:997px;text-align:left;background-repeat:no-repeat;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#415061;background-color:#FFF;margin:0 auto}
+.header{z-index:100;position:relative;height:79px;background-color:#ECECEC;width:998px}
+.footer{clear:both;width:997px;padding-top:15px;margin-bottom:0;margin-left:auto;margin-right:auto;height:40px;font-size:80%;color:#868686;text-decoration:none;text-align:center;background-image:url(../../images/footerbase.gif);background-repeat:no-repeat;background-color:#ECECEC;}
+.footer A{color:#868686;text-decoration:none}
+.footer A:hover{color:#701010;text-decoration:underline}
+
+
+/*---------------NEW STYLES-----------------------------------------------*/
+.chart_ttl {text-align:center; color:black;font-size:14px}
+.chart_sbttl {text-align:center;}
+
+.leftnav_container {width:250px;float:left;display:inline;margin-top: 20px;}
+.leftnav_container img {margin:0;padding:0;display:block}
+.leftnav_container select {width:206px; height:20px}
+#stateCode {width:150px;}
+.leftnav_container option {font-size:0.8em;}
+.leftnavttl{font-weight:bold;font-size:11px;letter-spacing:.08em;color:#FFF;background:#999;border-bottom:2px solid #888;margin:0;padding:2px;}
+
+.interior_right {float:left; width:710px; margin-left: 10px;}
+
+.interior_nonav {float:left; width:1150px; margin-left: 10px; background-color: #FFF}
+
+.go_btn {cursor:pointer; border:solid 1px #888888; color:#fff; font-size: 10px; height: 20px; width: 27px; font-family: Verdana, Arial, Helvetica, sans-serif; background: #84B6E8 url(images/go.gif) no-repeat left center;  top:25px; }
+
+#moduletable {margin:0;padding:0;}
+
+.left {float:left;}
+
+img.left_arrow {display:inline}
+.srcgrd1 {width:350px; background-color:#000000 }
+.srcgrd2 {width:202px; margin-top: 0px; margin-right: 10px; margin-bottom: 5px; }
+
+.searchlink { color:#4188C9; font-weight: bold; font-size:13px; margin-bottom:8px; line-height:16px}
+.searchdata{ font-size:11px; padding: 2px}
+.searchdata .lefttext { color:#808080; font-weight:700}
+#srcline{width:100%; height:1px; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#D2D7DA; margin-top:25px; margin-bottom:15px}
+#breadcrumbBlock {
+        BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; MARGIN: 0px 5px 10px 0px; BORDER-LEFT: #aaa 1px solid; WIDTH: 200px; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #DAE3EE
+}#breadcrumbBlockHeader {
+        PADDING-RIGHT: 5px; PADDING-LEFT: 5px; color:#FFF; font-weight:bold; height:22px; padding-top:5px; BACKGROUND-COLOR: #1F497D
+}
+
+.breadcrumbint { padding: 5px }
+
+.currentsearch { padding-left: 15px; padding-top:5px; line-height:16px}
+#facetsBlock {
+        BORDER-RIGHT: #aaa 1px solid; BORDER-TOP: #aaa 1px solid; MARGIN: 0px 5px 10px 0px; BORDER-LEFT: #aaa 1px solid; WIDTH: 200px; BORDER-BOTTOM: #aaa 1px solid; BACKGROUND-COLOR: #eee
+}
+.facetTitle {
+        PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 11px; BACKGROUND-COLOR: #ddd
+}
+.facetTitle A {
+        COLOR: #444
+}
+
+.blockHeader {
+        PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 5px; COLOR: #444; PADDING-TOP: 5px
+}
+UL.filterList {
+        MARGIN-TOP: 5px; PADDING-LEFT: 1em; MARGIN-BOTTOM: 7px; MARGIN-LEFT: 0px; LIST-STYLE-TYPE: none
+}
+
+UL.lcIndentedList {
+        PADDING-LEFT: 25px; MARGIN: 5px 10px 5px 5px; TEXT-INDENT: -20px; LIST-STYLE-TYPE: none
+}
+UL.indentedList {
+        PADDING-LEFT: 15px; MARGIN: 5px 10px 5px 5px; TEXT-INDENT: -10px; LIST-STYLE-TYPE: none
+}
+
+
+.blockHeader {
+        PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 5px; COLOR: #444; PADDING-TOP: 5px
+}
+
+
+h1.ptitle {
+background-repeat:no-repeat;
+color:#000066;
+font-family:Trebuchet MS;
+font-size:9pt;
+font-style:normal;
+font-weight:bold;
+margin:2px;
+}
